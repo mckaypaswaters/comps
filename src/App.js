@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Blocks from './Components/Blocks'
+import Sections from './Components/Sections'
 
 function App() {
   return (
     <div className="App">
-      This is my app to pass off some competencies
+      <Blocks/>
+      <Sections/>
     </div>
   );
 }
